@@ -44,7 +44,7 @@ customer-churn-prediction/
 
 
 
-##Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 The exploratory analysis highlights several important patterns related to customer churn:
 \* Customers with shorter tenure are significantly more likely to churn.
@@ -56,7 +56,7 @@ These findings indicate that churn behavior is influenced by a combination of te
 
 
 
-##Methodology
+## Methodology
 
 The churn prediction task is addressed using the following workflow:
 1. Data cleaning and type correction
@@ -68,7 +68,7 @@ The churn prediction task is addressed using the following workflow:
 
 
 
-##Models
+## Models
 Three classification models are evaluated:
 \* Logistic Regression – interpretable linear baseline
 \* Decision Tree – non-linear model capturing feature interactions
@@ -76,7 +76,7 @@ Three classification models are evaluated:
 
 
 
-##Evaluation Metrics
+## Evaluation Metrics
 Given the imbalanced nature of the dataset, model performance is evaluated using:
 \* Precision
 \* Recall
@@ -102,23 +102,12 @@ features. Random Forest provided competitive performance by capturing non-linear
 patterns, while Decision Trees showed weaker generalization due to high variance.
 
 
-Tools \\\& Libraries
+## Tools \\\& Libraries
 \* Python
 \* Pandas, NumPy
 \* Scikit-learn
 \* Imbalanced-learn (SMOTE)
 \* Matplotlib, Seaborn
-
-
-
-Future Improvements
-
-Possible extensions of this project include:
-
-\* Gradient Boosting models (e.g. XGBoost, LightGBM)
-\* Cost-sensitive learning to reflect business impact
-\* Incorporating temporal customer behavior features
-\* Model deployment and real-time inference
 
 
 
