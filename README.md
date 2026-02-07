@@ -41,7 +41,7 @@ customer-churn-prediction/
 │  └─ figures/          # figures used in README
 ├─ README.md
 └─ requirements.txt
-
+```
 ---
 
 ## Exploratory Data Analysis (EDA)
