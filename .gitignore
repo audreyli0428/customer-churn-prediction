@@ -1,0 +1,17 @@
+# data
+data/raw/
+data/processed/
+
+# python
+__pycache__/
+*.pyc
+
+# jupyter
+.ipynb_checkpoints/
+
+# system
+.DS_Store
+
+# env
+.env
+.venv
