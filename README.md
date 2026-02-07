@@ -42,7 +42,7 @@ customer-churn-prediction/
 ├─ README.md
 └─ requirements.txt
 
-
+---
 
 ## Exploratory Data Analysis (EDA)
 
@@ -53,7 +53,7 @@ The exploratory analysis highlights several important patterns related to custom
 These findings indicate that churn behavior is influenced by a combination of tenure, contract commitment, and pricing factors, motivating the use of supervised machine learning models.
 
 
-
+---
 
 
 ## Methodology
@@ -66,7 +66,7 @@ The churn prediction task is addressed using the following workflow:
 5. Model training and comparison
 6. Evaluation using metrics suitable for imbalanced classification
 
-
+---
 
 ## Models
 Three classification models are evaluated:
@@ -74,15 +74,7 @@ Three classification models are evaluated:
 \* Decision Tree – non-linear model capturing feature interactions
 \* Random Forest – ensemble method reducing variance and improving generalization
 
-
-
-## Evaluation Metrics
-Given the imbalanced nature of the dataset, model performance is evaluated using:
-\* Precision
-\* Recall
-\* F1-score
-\* ROC-AUC
-Special attention is given to recall and ROC-AUC to assess the model’s ability to correctly identify churned customers.
+---
 
 
 ## Model Performance
