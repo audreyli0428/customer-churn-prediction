@@ -23,28 +23,7 @@ The dataset exhibits a clear class imbalance, with churned customers representin
 
 ---
 
-## Project Structure
-
-```text
-customer-churn-prediction/
-├─ data/
-│  ├─ raw/              # raw dataset (ignored by git)
-│  └─ processed/
-├─ notebooks/
-│  ├─ 01_eda.ipynb      # exploratory data analysis
-│  └─ 02_modeling.ipynb # preprocessing, modeling, evaluation
-├─ src/
-│  ├─ data_prep.py
-│  ├─ train.py
-│  └─ evaluate.py
-├─ reports/
-│  └─ figures/          # figures used in README
-├─ README.md
-└─ requirements.txt
-
-
-
-##Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 The exploratory analysis highlights several important patterns related to customer churn:
 \* Customers with shorter tenure are significantly more likely to churn.
@@ -53,10 +32,10 @@ The exploratory analysis highlights several important patterns related to custom
 These findings indicate that churn behavior is influenced by a combination of tenure, contract commitment, and pricing factors, motivating the use of supervised machine learning models.
 
 
+---
 
 
-
-##Methodology
+## Methodology
 
 The churn prediction task is addressed using the following workflow:
 1. Data cleaning and type correction
@@ -66,23 +45,15 @@ The churn prediction task is addressed using the following workflow:
 5. Model training and comparison
 6. Evaluation using metrics suitable for imbalanced classification
 
+---
 
-
-##Models
+## Models
 Three classification models are evaluated:
 \* Logistic Regression – interpretable linear baseline
 \* Decision Tree – non-linear model capturing feature interactions
 \* Random Forest – ensemble method reducing variance and improving generalization
 
-
-
-##Evaluation Metrics
-Given the imbalanced nature of the dataset, model performance is evaluated using:
-\* Precision
-\* Recall
-\* F1-score
-\* ROC-AUC
-Special attention is given to recall and ROC-AUC to assess the model’s ability to correctly identify churned customers.
+---
 
 
 ## Model Performance
@@ -101,8 +72,9 @@ dataset is largely driven by additive effects of tenure, contract type, and pric
 features. Random Forest provided competitive performance by capturing non-linear
 patterns, while Decision Trees showed weaker generalization due to high variance.
 
+---
 
-Tools \\\& Libraries
+## Tools \\\& Libraries
 \* Python
 \* Pandas, NumPy
 \* Scikit-learn
@@ -110,21 +82,39 @@ Tools \\\& Libraries
 \* Matplotlib, Seaborn
 
 
+---
 
-Future Improvements
+## Project Structure
 
-Possible extensions of this project include:
+```text
+customer-churn-prediction/
+├─ data/
+│  ├─ raw/              # raw dataset (ignored by git)
+│  └─ processed/
+├─ notebooks/
+│  ├─ 01_eda.ipynb      # exploratory data analysis
+│  └─ 02_modeling.ipynb # preprocessing, modeling, evaluation
+├─ src/
+│  ├─ data_prep.py
+│  ├─ train.py
+│  └─ evaluate.py
+├─ reports/
+│  └─ figures/          
+├─ README.md
+└─ requirements.txt
+```
+---
 
-\* Gradient Boosting models (e.g. XGBoost, LightGBM)
-\* Cost-sensitive learning to reflect business impact
-\* Incorporating temporal customer behavior features
-\* Model deployment and real-time inference
-
-
-
-Author
+## Author
 Hao Ju Li (Audrey)
 MSc in Data Science \\\& Business Analytics
 ESSEC Business School \\\& CentraleSupélec
 
+---
+
+
+## Acknowledgements
+The dataset used in this project is the **Telco Customer Churn** dataset, publicly available on Kaggle:
+https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+We thank the original data contributors and Kaggle community for making this dataset accessible for research and educational purposes.
 
