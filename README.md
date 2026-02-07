@@ -162,7 +162,7 @@ customer-churn-prediction/
 │  └─ figures/
 ├─ README.md
 └─ requirements.txt
-
+```
 ---
 
 ## Author
