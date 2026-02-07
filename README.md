@@ -23,27 +23,6 @@ The dataset exhibits a clear class imbalance, with churned customers representin
 
 ---
 
-## Project Structure
-
-```text
-customer-churn-prediction/
-├─ data/
-│  ├─ raw/              # raw dataset (ignored by git)
-│  └─ processed/
-├─ notebooks/
-│  ├─ 01_eda.ipynb      # exploratory data analysis
-│  └─ 02_modeling.ipynb # preprocessing, modeling, evaluation
-├─ src/
-│  ├─ data_prep.py
-│  ├─ train.py
-│  └─ evaluate.py
-├─ reports/
-│  └─ figures/          # figures used in README
-├─ README.md
-└─ requirements.txt
-```
----
-
 ## Exploratory Data Analysis (EDA)
 
 The exploratory analysis highlights several important patterns related to customer churn:
@@ -93,6 +72,7 @@ dataset is largely driven by additive effects of tenure, contract type, and pric
 features. Random Forest provided competitive performance by capturing non-linear
 patterns, while Decision Trees showed weaker generalization due to high variance.
 
+---
 
 ## Tools \\\& Libraries
 \* Python
@@ -102,6 +82,27 @@ patterns, while Decision Trees showed weaker generalization due to high variance
 \* Matplotlib, Seaborn
 
 
+---
+
+## Project Structure
+
+```text
+customer-churn-prediction/
+├─ data/
+│  ├─ raw/              # raw dataset (ignored by git)
+│  └─ processed/
+├─ notebooks/
+│  ├─ 01_eda.ipynb      # exploratory data analysis
+│  └─ 02_modeling.ipynb # preprocessing, modeling, evaluation
+├─ src/
+│  ├─ data_prep.py
+│  ├─ train.py
+│  └─ evaluate.py
+├─ reports/
+│  └─ figures/          # figures used in README
+├─ README.md
+└─ requirements.txt
+```
 
 Author
 Hao Ju Li (Audrey)
