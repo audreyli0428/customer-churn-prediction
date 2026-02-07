@@ -99,14 +99,24 @@ customer-churn-prediction/
 │  ├─ train.py
 │  └─ evaluate.py
 ├─ reports/
-│  └─ figures/          # figures used in README
+│  └─ figures/          
 ├─ README.md
 └─ requirements.txt
 ```
+---
 
-Author
+## Author
 Hao Ju Li (Audrey)
 MSc in Data Science \\\& Business Analytics
 ESSEC Business School \\\& CentraleSupélec
+
+---
+
+
+## Acknowledgements
+The dataset used in this project is the **Telco Customer Churn** dataset, publicly available on Kaggle:
+https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+We thank the original data contributors and Kaggle community for making this dataset accessible for research and educational purposes.
+
 
 
